@@ -57,6 +57,8 @@ The following is a property reference for the Object:
 Type: `Function`  
 `optional`
 
+*Note: Results are filtered using `pattern` prior to any mapping.*
+
 Should you have the need to perform advanced mapping of the results,
 specify a `function` for the `map` property which accepts a lone `target`
 parameter.
@@ -78,6 +80,9 @@ Type: `RegExp`
 If you'd like the target results to be filtered by a particular
 pattern, assign a regular expression to this property, and the
 results will only contain targets which match the pattern.
+
+To exclude results that match a pattern,
+[use a negative look-ahead](http://stackoverflow.com/a/1538524/416845) RegExp.
 
 Example:
 

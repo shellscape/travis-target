@@ -29,6 +29,13 @@ Node.js version 7 or higher is recommended. This module makes use of
 node --harmony-async-await app
 ```
 
+Or you can use [harmonize](https://www.npmjs.com/package/harmonize) at the start
+of your app entry point file:
+
+```js
+require('harmonize')(['harmony-async-await']);
+```
+
 If you can't use version 7, use [Babel.js](babeljs.io) to handle runtime
 transpilation. My pattern is to use an `index.js` file which sets up Babel
 and calls out to the app entry point:

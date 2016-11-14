@@ -1,0 +1,33 @@
+{
+  "name": "travis-target",
+  "version": "0.1.0",
+  "description": "Determine the target files or directories for a Travis CI build",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shellscape/travis-target.git"
+  },
+  "keywords": [
+    "travis-ci",
+    "travis",
+    "git"
+  ],
+  "author": "Andrew Powell <andrew@shellscape.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shellscape/travis-target/issues"
+  },
+  "homepage": "https://github.com/shellscape/travis-target#readme",
+  "dependencies": {
+    "simple-git": "^1.62.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "harmonize": "^1.4.4"
+  }
+}

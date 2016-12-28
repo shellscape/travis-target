@@ -28,6 +28,6 @@
     "eslint": "^3.8.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
-    "harmonize": "^1.4.4"
+    "harmonize": "^2.0.0"
   }
 }

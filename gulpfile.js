@@ -1,6 +1,6 @@
 'use strict';
 
-require('harmonize')(['harmony-async-await']);
+require('harmonica')(['harmony-async-await']);
 
 const eslint = require('gulp-eslint');
 const gulp = require('gulp');

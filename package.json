@@ -1,6 +1,6 @@
 {
   "name": "travis-target",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Determine the target files or directories for a Travis CI build",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "eslint": "^3.8.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^3.0.1",
-    "harmonize": "^1.4.4"
+    "harmonica": "^1.1.0"
   }
 }

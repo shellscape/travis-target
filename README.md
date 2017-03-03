@@ -5,6 +5,14 @@ Travis CI build. It accomplishes that by examining the git history for
 repository being tested, and comparing the current git commit hash with
 the last hash on `origin/master`.
 
+
+## &nbsp;
+<p align="center">
+  <b>:rocket: &nbsp; Are you ready to tackle ES6 and hone your JavaScript Skills?</b> &nbsp; :rocket:<br/>
+  Check out these outstanding <a href="https://es6.io/">ES6 courses</a> by <a href="https://github.com/wesbos">@wesbos</a>
+</p>
+---
+
 ## Getting Started
 
 First thing's first, install the module:
